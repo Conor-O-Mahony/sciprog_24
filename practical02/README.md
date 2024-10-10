@@ -21,7 +21,7 @@ gcc -o Sum Sum.c
 ./Sum
 ```
 
-Calculates the sum $1 + \frac{1}{2} + \frac{3}{4} + ... + /frac{1}[1000}$, and then the sum $\frac{1}{1000} + \frac{1}{999} + \frac{1}{998} + ... + 1$ and finds the difference between them. 
+Calculates the sum $1 + \frac{1}{2} + \frac{3}{4} + ... + /frac{1}{1000}$, and then the sum $\frac{1}{1000} + \frac{1}{999} + \frac{1}{998} + ... + 1$ and finds the difference between them. 
 
 This is non-zero due to the fact that the limited number of bytes in a float (4 bytes) will result in small rounding errors that accumulate throughout the two sums. Using a larger type such as double (8 bytes) would result in smaller rounding errors and thus a smaller difference between the 2 sums.
 
