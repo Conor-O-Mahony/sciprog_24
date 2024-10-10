@@ -19,6 +19,6 @@ using the Trapezoidal rule with N=12 steps and compares this to the actual resul
 The Trapezoidal rule states:
 
 ```math
-\int_{a}^{b} f(x) dx ~ \frac{b-a}{2N} (f(x_0)+2f(x_1)+2f(x_2)+...+2f(x_{N-1})+f(x_N))
+\int_{a}^{b} f(x) dx \sim \frac{b-a}{2N} (f(x_0)+2f(x_1)+2f(x_2)+...+2f(x_{N-1})+f(x_N))
 ```
 where $x_0=a$ and $x_N=b$ with $N-1$ equidistant points between a and b.
