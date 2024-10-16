@@ -1,6 +1,6 @@
 # Practical 5
 
-# Exerice 1
+## Exercise 1
 
 To compile and run
 
@@ -20,7 +20,7 @@ F_0 = 0, \ F_1 = 1
 \end{align}
 ``` 
 
-# Exercise 2
+## Exercise 2
 
 Requires the math.h library (Linked with the -lm flag). To compile and run
 
