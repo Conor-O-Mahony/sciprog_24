@@ -14,8 +14,10 @@ Prompts the user for an integer n and displays the Fibonacci series up to n term
 The formulae for the Fibonnaci series are:
 
 ```math
+\begin{align}
 F_n = F_{n-1} + F_{n-2} \\
 F_0 = 0, \ F_1 = 1 
+\end{align}
 ``` 
 
 # Exercise 2
