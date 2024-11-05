@@ -11,14 +11,14 @@ gcc -o igcd iterativegcd.c
 
 Asks the user for 2 integers and returns the Greatest Common Divisor between them using an iterative algorithm. The Greatest Common Divisor between two integers is given by the euclidean algorithm:
 
-```math
-GCD(a,b)
-\textbf{while} b \neq \textbf{do}
-\indent temp=b
-\indent b=a \mod b
-\indent a=temp
-\textbf{end while}
-\textbf{return} a
+```plantext
+GCD(a, b)
+while b ≠ 0 do
+    temp = b
+    b = a mod b
+    a = temp
+end while
+return a
 ```
 
 ## Exercise 2
