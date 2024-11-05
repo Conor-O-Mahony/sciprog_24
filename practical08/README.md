@@ -19,6 +19,7 @@ GCD(a,b)
 \indent a=temp
 \textbf{end while}
 \textbf{return} a
+```
 
 ## Exercise 2
 
