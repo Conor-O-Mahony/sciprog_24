@@ -5,7 +5,7 @@
 To compile and run
 
 ```bash
-Make
+make
 ./prog
 ```
 
